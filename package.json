@@ -8,10 +8,13 @@
   "author": "François ROLAND <francois.roland@eafc-uccle.be>",
   "devDependencies": {
     "eslint": "^8.28.0",
-    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "http-server": "^14.1.1",
     "prettier": "^2.8.0"
   },
@@ -21,7 +24,8 @@
       "es2021": true
     },
     "extends": [
-      "airbnb-base",
+      "airbnb",
+      "airbnb/hooks",
       "plugin:prettier/recommended"
     ],
     "parserOptions": {

@@ -7,14 +7,14 @@
   "extensions": [
     "cs50.extension-uninstaller",
     "dbaeumer.vscode-eslint",
+    "dsznajder.es7-react-js-snippets",
     "editorconfig.editorconfig",
     "esbenp.prettier-vscode",
     "GitHub.github-vscode-theme",
     "humao.rest-client",
     "ms-vsliveshare.vsliveshare",
     "visualstudioexptteam.vscodeintellicode",
-    "vscode-icons-team.vscode-icons",
-    "xabikos.JavaScriptSnippets"
+    "vscode-icons-team.vscode-icons"
   ],
   "settings": {
     "editor.fontFamily": "'FiraCode NF', 'FiraCode Nerd Font', 'Fira Code', 'FiraCode', Consolas, 'Courier New', monospace",
