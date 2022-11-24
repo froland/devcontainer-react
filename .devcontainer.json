@@ -70,11 +70,11 @@
   "updateContentCommand": "npm install",
   "remoteUser": "node",
   "forwardPorts": [
-    8080
+    3000
   ],
   "portsAttributes": {
-    "8080": {
-      "label": "http-server",
+    "3000": {
+      "label": "react-server",
       "onAutoForward": "silent"
     }
   },
