@@ -1,0 +1,35 @@
+{
+  "name": "web-env",
+  "version": "1.0.0",
+  "description": "Development environment for HTML, CSS and JavaScript.",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "author": "François ROLAND <francois.roland@eafc-uccle.be>",
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "http-server": "^14.1.1",
+    "prettier": "^2.8.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "extends": [
+      "airbnb-base",
+      "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "rules": {
+      "no-console": "off"
+    }
+  }
+}
