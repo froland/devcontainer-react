@@ -1,6 +1,9 @@
 {
   "name": "JavaScript",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18-bullseye",
+  "hostRequirements": {
+    "cpus": 4
+  },
   "containerEnv": {
     "NODE_ENV": "development"
   },
