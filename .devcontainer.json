@@ -73,7 +73,7 @@
     }
   },
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "npm install && cd client && npm install",
+  "updateContentCommand": "cd client && npm install",
   "remoteUser": "node",
   "portsAttributes": {
     "5173": {
