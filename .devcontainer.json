@@ -70,7 +70,7 @@
     }
   },
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "npm install",
+  "updateContentCommand": "cd client && npm install",
   "remoteUser": "node",
   "forwardPorts": [
     3000
