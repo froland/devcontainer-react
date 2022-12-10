@@ -27,6 +27,9 @@
       "javascript": "javascriptreact"
     },
     "eslint.format.enable": false,
+    "eslint.validate": [
+      "javascript"
+    ],
     "extensions.ignoreRecommendations": true,
     "extension-uninstaller.uninstall": [
       "github.copilot",
@@ -39,7 +42,7 @@
       "**/.git/subtree-cache/**": true,
       "**/node_modules/*/**": true
     },
-    "git.autofetch": true, /* Disable "Would you like Code to periodically run 'git fetch'?" toast */
+    "git.autofetch": true,
     "terminal.integrated.defaultProfile.linux": "zsh",
     "window.autoDetectColorScheme": true,
     "workbench.editor.closeOnFileDelete": true,
@@ -70,14 +73,11 @@
     }
   },
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "cd client && npm install",
+  "updateContentCommand": "npm install && cd client && npm install",
   "remoteUser": "node",
-  "forwardPorts": [
-    3000
-  ],
   "portsAttributes": {
-    "3000": {
-      "label": "react-server",
+    "5173": {
+      "label": "Vite dev server",
       "onAutoForward": "silent"
     }
   },
