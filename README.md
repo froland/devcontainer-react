@@ -4,7 +4,7 @@ Environment de développement pour React.
 
 ## Analyse du code et formattage
 
-Suit les [règles d'Airbnb](https://airbnb.io/javascript/), également disponibles [en français](https://github.com/nmussy/javascript-style-guide).
+Cet environnement est configuré pour que le code JavaScript suive les [règles d'Airbnb](https://airbnb.io/javascript/), également disponibles [en français](https://github.com/nmussy/javascript-style-guide).
 
 ## Client React
 
