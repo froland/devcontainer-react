@@ -4,9 +4,6 @@
   "hostRequirements": {
     "cpus": 4
   },
-  "containerEnv": {
-    "NODE_ENV": "development"
-  },
   "extensions": [
     "cs50.extension-uninstaller",
     "dbaeumer.vscode-eslint",
