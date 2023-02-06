@@ -1,72 +1,71 @@
 {
   "name": "JavaScript",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18-bullseye",
-  "hostRequirements": {
-    "cpus": 4
-  },
-  "extensions": [
-    "cs50.extension-uninstaller",
-    "dbaeumer.vscode-eslint",
-    "dsznajder.es7-react-js-snippets",
-    "editorconfig.editorconfig",
-    "esbenp.prettier-vscode",
-    "GitHub.github-vscode-theme",
-    "humao.rest-client",
-    "ms-vsliveshare.vsliveshare",
-    "visualstudioexptteam.vscodeintellicode",
-    "vscode-icons-team.vscode-icons"
-  ],
-  "settings": {
-    "editor.fontFamily": "'FiraCode NF', 'FiraCode Nerd Font', 'Fira Code', 'FiraCode', Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": false,
-    "editor.formatOnSave": true,
-    "emmet.includeLanguages": {
-      "javascript": "javascriptreact"
-    },
-    "eslint.format.enable": false,
-    "eslint.validate": [
-      "javascript"
+  "customizations": {
+    "extensions": [
+      "cs50.extension-uninstaller",
+      "dbaeumer.vscode-eslint",
+      "dsznajder.es7-react-js-snippets",
+      "editorconfig.editorconfig",
+      "esbenp.prettier-vscode",
+      "GitHub.github-vscode-theme",
+      "humao.rest-client",
+      "ms-vsliveshare.vsliveshare",
+      "visualstudioexptteam.vscodeintellicode",
+      "vscode-icons-team.vscode-icons"
     ],
-    "extensions.ignoreRecommendations": true,
-    "extension-uninstaller.uninstall": [
-      "github.copilot",
-      "github.copilot-nightly",
-      "ms-toolsai.jupyter",
-      "tabnine.tabnine-vscode"
-    ],
-    "files.watcherExclude": {
-      "**/.git/objects/**": true,
-      "**/.git/subtree-cache/**": true,
-      "**/node_modules/*/**": true
-    },
-    "git.autofetch": true,
-    "terminal.integrated.defaultProfile.linux": "zsh",
-    "window.autoDetectColorScheme": true,
-    "workbench.editor.closeOnFileDelete": true,
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.preferredDarkColorTheme": "GitHub Dark Default",
-    "workbench.preferredLightColorTheme": "GitHub Light Default",
-    "workbench.tips.enabled": false,
-    "workbench.welcomePage.walkthroughs.openOnInstall": false,
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-    },
-    "[javascriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-    },
-    "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-    },
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-    },
-    "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
+    "settings": {
+      "editor.fontFamily": "'FiraCode NF', 'FiraCode Nerd Font', 'Fira Code', 'FiraCode', Consolas, 'Courier New', monospace",
+      "editor.fontLigatures": false,
+      "editor.formatOnSave": true,
+      "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+      },
+      "eslint.format.enable": false,
+      "eslint.validate": [
+        "javascript"
+      ],
+      "extensions.ignoreRecommendations": true,
+      "extension-uninstaller.uninstall": [
+        "github.copilot",
+        "github.copilot-nightly",
+        "ms-toolsai.jupyter",
+        "tabnine.tabnine-vscode"
+      ],
+      "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true
+      },
+      "git.autofetch": true,
+      "terminal.integrated.defaultProfile.linux": "zsh",
+      "window.autoDetectColorScheme": true,
+      "workbench.editor.closeOnFileDelete": true,
+      "workbench.iconTheme": "vscode-icons",
+      "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+      "workbench.preferredLightColorTheme": "GitHub Light Default",
+      "workbench.tips.enabled": false,
+      "workbench.welcomePage.walkthroughs.openOnInstall": false,
+      "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+      },
+      "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+      },
+      "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+      },
+      "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+      },
+      "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+      }
     }
   },
   "waitFor": "onCreateCommand",
